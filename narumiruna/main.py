@@ -9,7 +9,7 @@ def main():
     model = nn.Linear(x.size(0), y.size(0))
     optimizer = optim.Adam(model.parameters())
 
-    num_iterations = 15000
+    num_iterations = 64000
     for _ in range(num_iterations):
         out = model(x)
         loss = (y - out).norm()
