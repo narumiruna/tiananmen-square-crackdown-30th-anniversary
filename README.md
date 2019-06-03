@@ -9,4 +9,5 @@ A repository of remembering Tiananmen Square crackdown.
 
 - [Tiananmen Square Massacre: Black Night In June (2019)](https://youtu.be/hA4iKSeijZI)
 - [Archive: Chinese troops fire on protesters in Tiananmen Square - BBC News](https://youtu.be/kMKvxJ-Js3A)
+- [1989: Man vs. Chinese tank Tiananmen square](https://youtu.be/YeFzeNAHEhU)
 - [六四事件：廣場備忘錄－ BBC News 中文 ｜天安門｜1989](https://youtu.be/ExqqdUXXdgA)
