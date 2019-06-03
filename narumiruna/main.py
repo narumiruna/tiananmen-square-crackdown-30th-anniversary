@@ -3,15 +3,15 @@ from torch import nn, optim
 
 
 def main():
-    x = torch.tensor([6, 4], dtype=torch.float)
+    x = torch.tensor([6, 4], dtype=torch.float).view(1, -1)
     y = torch.tensor([84, 105, 97, 110, 97, 110, 109, 101, 110, 32, 83, 113, 117, 97, 114, 101, 32, 67, 114, 97, 99, 107, 100, 111, 119, 110, 32, 51, 48, 116, 104, 32, 65, 110, 110, 105, 118, 101, 114, 115, 97, 114, 121], dtype=torch.float)
     
-    model = nn.Linear(x.size(0), y.size(0))
-    optimizer = optim.Adam(model.parameters())
+    model = nn.Linear(x.size(1), y.size(0))
+    optimizer = optim.Adam(model.parameters(), lr=0.00064)
 
-    num_iterations = 64000
+    num_iterations = 1989 * 6 * 4
     for _ in range(num_iterations):
-        out = model(x)
+        out = model(x).view(-1)
         loss = (y - out).norm()
 
         optimizer.zero_grad()
