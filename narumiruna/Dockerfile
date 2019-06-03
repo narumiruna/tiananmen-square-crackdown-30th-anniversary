@@ -1,5 +1,5 @@
-FROM pytorch/pytorch:0.4.1-cuda9-cudnn7-runtime
+FROM pytorch/pytorch:1.1.0-cuda10.0-cudnn7.5-runtime
 
-COPY train.py .
+COPY main.py .
 
-ENTRYPOINT [ "python", "train.py" ]
+ENTRYPOINT [ "python", "main.py" ]
