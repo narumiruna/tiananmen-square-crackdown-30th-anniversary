@@ -1,6 +1,6 @@
 # Tiananmen Square Crackdown 30th Anniversary
 
-A repository to remembering Tiananmen Square crackdown.
+A repository of remembering Tiananmen Square crackdown.
 
 ## Articles
 
